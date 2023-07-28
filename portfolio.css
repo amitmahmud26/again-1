@@ -198,11 +198,16 @@ footer{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 .connect-description{
     font-size: 16px;
     font-weight: 400;
     color: #474747;
+    margin-bottom: 10px;
+}
+.icons{
+    margin-bottom: 10px;
 }
 input{
     border: 0;
@@ -217,4 +222,7 @@ input{
 }
 .message{
     height: 180px;
+}
+a{
+    margin-right: 10px;
 }

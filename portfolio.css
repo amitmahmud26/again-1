@@ -25,10 +25,22 @@ nav{
 }
 .btn-primary{
     color: white;
+    font-size: 20px;
+    font-weight: 900;
     height: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
     border: 0;
+    padding: 18px 35px;
+}
+.btn-contact{
+    font-size: 20px;
+    font-weight: 900;
+    color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
     padding: 18px 35px;
 }
 .banner{
@@ -92,4 +104,84 @@ main{
 }
 .info-description{
     font-weight: bold;
+}
+/* what i do */
+.what-i-do{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+.i-do-description{
+    text-align: center;
+    width: 800px;
+    color: #757575;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+/* skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.skill-description{
+    color: #757575;
+    font-size: 18px;
+}
+/* resume */
+.resume-title{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+.resume-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.resume-heading{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.resume-subject{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-institute{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.cv{
+    text-align: center;
+    margin: 20px auto;
 }

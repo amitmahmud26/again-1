@@ -185,3 +185,36 @@ main{
     text-align: center;
     margin: 20px auto;
 }
+/* footer */
+footer{
+    background-color: #FEF8F4;
+    display: flex;
+    padding: 100px;
+}
+.lets-connect{
+    padding-left: 100px;
+}
+.connect-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.connect-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+input{
+    border: 0;
+    height: 60px;
+    width: 460px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.lets-message{
+    padding-left: 300px;
+
+}
+.message{
+    height: 180px;
+}
